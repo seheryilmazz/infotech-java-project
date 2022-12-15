@@ -1,6 +1,6 @@
 package homework;
 
-public class Question1 {
+public class Homework1 {
     public static void main(String[] args) {
 
         //1-Primitive Data Turleri ve Variable'lar

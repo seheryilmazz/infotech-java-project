@@ -41,6 +41,12 @@ public class C02_DataCasting {
         int number = 15;
         number = 20;
         System.out.println(number);  //20
+        sayi=25;
+        System.out.println(sayi);
+
+        final double piSayisi=3.14;
+        System.out.println(piSayisi);
+        // piSayisi=3; // final degeri degistiremeyiz. Bu ifadehata verir.
 
         //Matematisel islemler ve Modulus
 
@@ -62,7 +68,11 @@ public class C02_DataCasting {
         int onlarBasamagi = (sayi2/10)%10;
         System.out.println(onlarBasamagi);
         int yuzlerBasamagi = (sayi2/100)%10;
+        System.out.println(yuzlerBasamagi);
         int binlerBasamagi = (sayi2/1000)%10;
+        System.out.println(binlerBasamagi);
+        int toplam=birlerBasamagi+onlarBasamagi+yuzlerBasamagi+binlerBasamagi;
+        System.out.println(toplam);
         System.out.println(birlerBasamagi);
         System.out.println(onlarBasamagi);
 

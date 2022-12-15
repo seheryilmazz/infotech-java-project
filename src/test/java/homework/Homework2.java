@@ -2,7 +2,7 @@ package homework;
 
 import java.util.Scanner;
 
-public class Question2 {
+public class Homework2 {
 
     public static void main(String[] args) {
 
@@ -22,6 +22,7 @@ public class Question2 {
              */
         System.out.println("xyz\b degiskeni");     //xy degiskeni
         System.out.println("Ali\tmerhaba");       //Ali	merhaba
+        System.out.println("\tjavajavajava\tjavajavajava");
         System.out.println("abcde\rMerhaba");     //Merhaba
         System.out.println("Ali merhaba\nAyse merhaba");  //Ali merhaba
                                                           //Ayse merhaba
