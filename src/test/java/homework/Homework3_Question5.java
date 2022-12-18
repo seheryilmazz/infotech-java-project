@@ -19,6 +19,8 @@ public class Homework3_Question5 {
         } else {
             System.out.println("Girilen karakter bir harf degildir.");
         }
+        int asciiDegeri=karakter;
+        System.out.println(asciiDegeri);
 
     }
 }

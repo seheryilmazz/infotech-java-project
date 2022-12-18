@@ -26,6 +26,15 @@ public class Homework3_Question2 {
         System.out.println(str);
 
 
+        /*
+        String sonuc = gunAdi.equals ("Cumartesi") ? "Bugun haftasonu ve cumartesi gunu" :
+                gunAdi.equals("Pazar") ? "Bugun haftasonu ve pazar gunu" : "Bugun hafta ici";
+        System.out.println(sonuc);
+        */
+
+
+
+
 
 
     }

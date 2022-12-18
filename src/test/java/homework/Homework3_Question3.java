@@ -15,7 +15,7 @@ public class Homework3_Question3 {
 
         Scanner scan = new Scanner(System.in);
 
-        System.out.println("Bir gun seciniz ve sectiginiz gun ilk harfini giriniz");
+        System.out.println("Bir gun seciniz ve sectiginiz gunun ilk harfini buyuk harf olarak giriniz");
         char gununilkHarfi = scan.next().charAt(0);
 
         switch (gununilkHarfi){
@@ -28,12 +28,8 @@ public class Homework3_Question3 {
                 System.out.println("Sali");
                 break;
 
-            case 'Ç' :
-                System.out.println("Çarsamba");
-                break;
-
             case 'C' :
-                System.out.println("Cuma, Cumartesi");
+                System.out.println("Carsamba, Cuma, Cumartesi");
                 break;
 
             default:

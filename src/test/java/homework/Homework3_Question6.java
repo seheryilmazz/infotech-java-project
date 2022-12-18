@@ -16,15 +16,18 @@ public class Homework3_Question6 {
         System.out.println("100 uzerinden bir not giriniz");
         int not=scan.nextInt();
 
-        if (not<50){
+        if (not>=0 && not<=100){
+
+        if (not>=0 && not<50){
             System.out.println("Notunuz : D");
         } else if (not<60) {
             System.out.println("Notunuz : C");
         } else if (not<80) {
             System.out.println("Notunuz : B");
-        } else if (not<=100){
-            System.out.println("Notunuz : A");
         } else {
+            System.out.println("Notunuz : A");
+        } }
+        else {
             System.out.println("Gecerli not giriniz");
         }
     }

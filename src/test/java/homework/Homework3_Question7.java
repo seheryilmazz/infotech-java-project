@@ -16,7 +16,11 @@ public class Homework3_Question7 {
         System.out.println("4 basamakli bir sayi giriniz");
         short sayi=scan.nextShort();
 
+        if (sayi>999 && sayi<10000){
         String password=sayi%5==0 ? (sayi%10==0 ? "5'e bolunen cift sayi" : "5'e bolunen tek sayi") : "Tekrar deneyin";
         System.out.println(password);
+        } else {
+            System.out.println("Dort basamakli sayi giriniz");
+        }
     }
 }
