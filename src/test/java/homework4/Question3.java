@@ -13,6 +13,9 @@ public class Question3 {
         System.out.println("Bir soyisim giriniz");
         String soyIsim = scan.nextLine();
 
+        //int length = isim.length();
+        //System.out.println(length);
+
         if (isim.length()>soyIsim.length()){
             System.out.println("Isim soyisimden daha uzun");
         } else {

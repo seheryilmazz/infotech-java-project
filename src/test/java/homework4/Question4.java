@@ -23,9 +23,15 @@ public class Question4 {
 
         ad = ad.substring(0,1).toUpperCase()+ad.substring(1,ad.length()).replaceAll("\\w","*");
         soyad = soyad.substring(0,1).toUpperCase()+soyad.substring(1,soyad.length()).replaceAll("\\w","*");
-        krediKartNo = "**** **** **** "+krediKartNo.substring(15,krediKartNo.length());
+        krediKartNo = "****"+" "+"****"+" "+"****"+" "+krediKartNo.substring(12,krediKartNo.length());
 
         System.out.println("isim-soyisim : "+ad+" "+soyad+"\n"+"kart no : "+krediKartNo);
+
+        //String cardNumber = inpt2.substring(0, inpt2.length() - 4).replaceAll("\\d", "*");
+        //String cardNumber2 = inpt2.substring(inpt2.length() - 4, inpt2.length());
+
+        //System.out.println("\n" + inptName2 + " " + inptSurname2);
+        //System.out.println("\n" + cardNumber + cardNumber2);
 
         //System.out.println(ad);
         //System.out.println(soyad);

@@ -8,8 +8,11 @@ public class Question1 {
          */
 
         String str = " Java ogrenmek123 Cok guzel@ ";
+
         str= str.replaceAll("\\d", "").replace('@','.').trim();
+
         str=str.substring(0,1).toUpperCase()+str.substring(1).toLowerCase();
+
         System.out.println(str);
 
 
