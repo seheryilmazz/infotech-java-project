@@ -20,6 +20,7 @@ public class Question7 {
             sayi=scan.nextInt();
             if(sayi<0){
                 System.out.println("Negatif tamsayi girilemez. Tekrar bir pozitif tamsayi giriniz.");
+                continue;
             }
             sayac++;
             toplam+=sayi;

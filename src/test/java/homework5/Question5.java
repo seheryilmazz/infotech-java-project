@@ -15,14 +15,14 @@ public class Question5 {
         int baslangicDegeri = scan.nextInt();
         System.out.println("Bir bitis degeri giriniz");
         int bitisDegeri = scan.nextInt();
-        int sayi=baslangicDegeri;
+        //int sayi=baslangicDegeri;
 
-        while (sayi<=bitisDegeri){
+        while (baslangicDegeri<=bitisDegeri){
 
-            if (sayi % 2 == 0) {
-                System.out.print(sayi + " ");
+            if (baslangicDegeri % 2 == 0) {
+                System.out.print(baslangicDegeri + " ");
             }
-            sayi++;
+            baslangicDegeri++;
         }
 
         /*Scanner input= new Scanner(System.in);

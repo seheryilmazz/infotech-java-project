@@ -19,8 +19,8 @@ public class Question9 {
 
         for (int i = 1; i <= sayi; i++) {
             for (int j = 1; j <=sayi ; j++) {
-                //System.out.print(j + "*" + i + "=" + (j * i) + " ");
-                System.out.print((j*i)+ " ");
+                System.out.print(j + "*" + i + "=" + (j * i) + "\t"+"\t");
+                //System.out.print((j*i)+ " ");
             }
             System.out.println();
         }

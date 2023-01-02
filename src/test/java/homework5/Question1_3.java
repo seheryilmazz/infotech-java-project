@@ -14,37 +14,54 @@ public class Question1_3 {
         -@gmail.com ile bitmiyorsa “Yazimda bir sorun var, maili kontrol ediniz”
         yazdirin.
          */
-        emailKontrol(true,true,true);
-        boolean mainsonuc=true;
-        System.out.println(mainsonuc);
-    }
 
-    public static boolean emailKontrol(boolean sart1,boolean sart2, boolean sart3) {
-        Scanner scan = new Scanner(System.in);
+        /*Scanner scan = new Scanner(System.in);
         System.out.println("Lutfen e-mail hesabinizi giriniz");
-        String email = scan.nextLine();
-        sart1 = email.contains("@");
-        sart2 = email.contains("gmail");
-        sart3 = email.endsWith("@gmail.com");
+        String str = scan.nextLine();
 
-        if (!sart1) {
-            System.out.println("gecersiz email");
-        }
-        if (!sart2) {
-            System.out.println("lutfen gmail adresinizi girin");
-        }
-        if (!sart3) {
-            System.out.println("Yazimda bir sorun var, maili kontrol ediniz");
-        }
-        if (sart1 && sart2 && sart3) {
-            System.out.println("Email adresinizi dogru girdiniz ");
-        }
-        boolean sonuc = false;
-        return sonuc;
+        emailKontrol(str);
+
+
     }
 
+    public static boolean emailKontrol(String email) {
 
 
 
+        if (!email.contains("@")) {
+            System.out.println("gecersiz email");
+        } else if (!email.contains("gmail")) {
+            System.out.println("lutfen gmail adresinizi girin");
+        } else if (!email.endsWith("@gmail.com")) {
+            System.out.println("Yazimda bir sorun var, maili kontrol ediniz");
+        } else
+            System.out.println("Email adresinizi dogru girdiniz ");*/
+
+
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Lütfen e-mail hesabınızı giriniz");
+
+        String s = input.nextLine();
+
+        mailGir(s);
+
+
+    }
+    public static void mailGir(String str) {
+
+        if(!str.contains("@")) {
+            System.out.println("geçersiz email, tekrar giriniz");
+        }
+        else if(!str.contains("@gmail")) {
+            System.out.println("lütfen gmail adresinizi girin, tekrar giriniz");
+        }
+        else if(!str.contains("@gmail.com")) {
+            System.out.println("Yazımda bir sorun var, maili kontrol ediniz. Tekrar giriniz");
+        }
+        else
+            System.out.println("emailinizi başarı ile girdiniz!");
+
+    }
 
 }
